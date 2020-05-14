@@ -1,0 +1,19 @@
+.section-gap{
+  margin-top:70px;
+}
+.single-cause {
+  border: solid 1px #eeeeee;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  }
+
+ .site-footer{
+  background-color: black;
+  padding: 60px 60px 80px 80px;
+  }
+ .text-color{
+    color:white;
+ }
+
