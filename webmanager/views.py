@@ -1,10 +1,11 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm
 from .forms import CreateUserForm
 
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.http import HttpResponse
+from webmanager.models import *
 
 
 # Create your views here.
@@ -16,6 +17,44 @@ def home(request):
 
 def contact(request):
     return render(request, 'webmanager/contact.html')
+
+
+def appeals(request):
+    return render(request, 'webmanager/appeals.html')
+
+
+def sponsor(request):
+    return render(request, 'webmanager/sponsor.html')
+
+
+def events(request):
+    return render(request, 'webmanager/events.html')
+
+
+def blog(request):
+    blogs = Blog.objects.all()
+    context = {'blogs': blogs}
+    return render(request, 'webmanager/blog.html', context)
+
+
+def blog_detail(request, pk):
+    blog = Blog.objects.get(pk=pk)
+    context = {
+        "blog": blog,
+    }
+    return render(request, "webmanager/blog_detail.html", context)
+
+
+def gallery(request):
+    return render(request, 'webmanager/gallery.html')
+
+
+def donation(request):
+    return render(request, 'webmanager/donation.html')
+
+
+def dashboard(request):
+    return render(request, 'webmanager/dashboard.html')
 
 
 def loginPage(request):
@@ -55,4 +94,3 @@ def register(request):
 def logoutUser(request):
     logout(request)
     return redirect('login')
-

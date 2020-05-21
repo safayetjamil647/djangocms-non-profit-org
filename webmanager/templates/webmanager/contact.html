@@ -1,5 +1,124 @@
-{% extends 'webmanager/main.html' %}
-{% block content %}
-{% load static%}
-<h3>Jaaaam</h3>
+{% extends 'webmanager/main.html' %} {% block content %} {% load static%}
+<section>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Contact</h1>
+        <p>
+          Together we plant a smile.Support the delivery of food, living and
+          medical care in Bangladesh. Donate now. Delivering sipport to those in
+          crisis with no political or religious agenda.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          src="{% static '/img/assets/khulna3.jpg' %}"
+          class="card-img-top img-fluid"
+          alt="..." style="height: 140px;"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact-page-area title-gap">
+  <div class="container">
+    <div class="row map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1838.7668810616117!2d89.54535980791997!3d22.81973371037987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9be67ffe9059%3A0x4519c8ee3da0761c!2sBohemian%20Holidays!5e0!3m2!1sen!2sbd!4v1588840923625!5m2!1sen!2sbd"
+        width="100%"
+        height="450"
+        frameborder="0"
+        style="border: 0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+      <div class="col-lg-4 d-flex flex-column address-wrap top-margin title-gap">
+        <div class="single-contact-address d-flex flex-row">
+          <div class="icon">
+            <span class="lnr lnr-home"></span>
+          </div>
+          <div class="contact-details">
+            <h5>Khulna , Bangladesh</h5>
+            <p>Road#2, Phase#1st, Sonadanga R/A,Khulna</p>
+          </div>
+        </div>
+        <div class="single-contact-address d-flex flex-row">
+          <div class="icon">
+            <span class="lnr lnr-phone-handset"></span>
+          </div>
+          <div class="contact-details">
+            <h5>+8801994 222 111</h5>
+            <h5>+88041731755</h5>
+            <p>Sat to Thurs 9am to 6 pm</p>
+          </div>
+        </div>
+        <div class="single-contact-address d-flex flex-row title-gap">
+          <div class="icon">
+            <span class="lnr lnr-envelope"></span>
+          </div>
+          <div class="contact-details">
+            <h5>support@abodanbd.com</h5>
+            <p>Send us your query anytime!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 title-gap">
+        <form class="form-area" id="myForm" action="mail.php" method="post">
+          <div class="row">
+            <div class="col-lg-6 form-group top-margin">
+              <input
+                name="name"
+                placeholder="Enter your name"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Enter your name'"
+                class="common-input mb-20 form-control"
+                required=""
+                type="text"
+              />
+
+              <input
+                name="email"
+                placeholder="Enter email address"
+                pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Enter email address'"
+                class="common-input mb-20 form-control"
+                required=""
+                type="email"
+              />
+
+              <input
+                name="subject"
+                placeholder="Enter your subject"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Enter your subject'"
+                class="common-input mb-20 form-control"
+                required=""
+                type="text"
+              />
+              <div class="mt-20 alert-msg" style="text-align: left;"></div>
+            </div>
+            <div class="col-lg-6 form-group top-margin">
+              <textarea
+                class="common-textarea form-control"
+                name="message"
+                placeholder="Messege"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Messege'"
+                required=""
+              ></textarea>
+              <button
+                class="btn btn-primary"
+                style="float: right;"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}

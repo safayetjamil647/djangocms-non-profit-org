@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b265cc45-478a-4b95-a774-9a3b4b118851" name="Default Changelist" comment="" />
+    <list default="true" id="b265cc45-478a-4b95-a774-9a3b4b118851" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonprofitorg/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nonprofitorg/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonprofitorg/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nonprofitorg/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/appeals.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/appeals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/donation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/sponsor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +31,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1blVRlwn0WWJI8cKSwrBFMHbmeU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +49,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../customerdatabase" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/imageproject" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,13 +66,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="587" y="211" key="FileChooserDialogImpl" timestamp="1589289244903">
+    <state x="587" y="211" key="FileChooserDialogImpl" timestamp="1590062918590">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="587" y="211" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1589289244903" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1589462315288">
+    <state x="587" y="211" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1590062918590" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590061837875">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1589462315288" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1590061837875" />
   </component>
 </project>

@@ -1,5 +1,11 @@
-.section-gap{
-  margin-top:70px;
+body {
+  font-family: "Barlow", sans-serif;
+}
+.section-gap {
+  margin-top: 280px;
+}
+.title-gap {
+  margin-top: 80px;
 }
 .single-cause {
   border: solid 1px #eeeeee;
@@ -7,13 +13,16 @@
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  }
+}
 
- .site-footer{
+.site-footer {
   background-color: black;
   padding: 60px 60px 80px 80px;
-  }
- .text-color{
-    color:white;
- }
+}
+.top-text {
+  font-size: 60px;
+}
 
+.button-margin {
+  margin-left: 30px;
+}

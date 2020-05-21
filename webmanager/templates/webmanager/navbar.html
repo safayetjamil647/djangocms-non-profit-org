@@ -1,24 +1,53 @@
 {% load static %}
-<style>
-  .
-</style>
+<style></style>
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="{% static '/img/logo/Obodan.png'%}" width="60" height="60" alt="">
+    <img
+      src="{% static '/img/logo/Obodan.png'%}"
+      width="60"
+      height="60"
+      alt=""
+    />
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link text-white" href="#">Appeals</a>
-       <a class="nav-item nav-link text-white" href="#">Sponsor</a>
-       <a class="nav-item nav-link text-white" href="#">Blog</a>
-       <a class="nav-item nav-link text-white" href="#">Events</a>
-      <a class="nav-item nav-link text-white" href="#">Gallery</a>
-      <a class="nav-item nav-link text-white" href="#">Donation</a>
-      <a class="nav-item nav-link text-white" href="{%url 'contact' %}">Contact</a>
+      <a class="nav-item nav-link active text-white" href="{%url 'home' %}"
+        >Home <span class="sr-only">(current)</span></a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'appeals' %}"
+        >Appeals</a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'sponsor' %}"
+        >Sponsor</a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'blog' %}">Blog</a>
+      <a class="nav-item nav-link text-white" href="{%url 'events' %}"
+        >Events</a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'gallery' %}"
+        >Gallery</a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'donation' %}"
+        >Donate Now</a
+      >
+
+      <a class="nav-item nav-link text-white" href="{%url 'contact' %}"
+        >Contact</a
+      >
+      <a class="nav-item nav-link text-white" href="{%url 'dashboard' %}"
+        >Dashboard</a
+      >
     </div>
   </div>
   <span class="text-white">Hello,{{request.user}}</span>

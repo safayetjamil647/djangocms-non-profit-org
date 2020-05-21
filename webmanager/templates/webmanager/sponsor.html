@@ -1,10 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'webmanager/main.html' %} {% block content %} {% load static%}
+<section>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>sponsor</h1>
+          <p>
+            Together we plant a smile.Support the delivery of food, living and
+            medical care in Bangladesh. Donate now. Delivering sipport to those in
+            crisis with no political or religious agenda.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="{% static '/img/assets/khulna3.jpg' %}"
+            class="card-img-top img-fluid"
+            alt="..." style="height: 140px;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
 
-</body>
-</html>
+<section>
+  <div class="container section-gap">
+    <div class="text-center">
+      <h1>Be a sponsor</h1>
+      <p class="title-gap">
+        The French Revolution constituted for the conscience of the dominant
+        aristocratic class a fall from innocence the natural chain of events.
+      </p>
+    </div>
+    <div class="row text-center title-gap">
+      <div class="col-lg-4">
+        <div class="card" style="">
+          <div class="card-body">
+            <img
+              src="{% static '/img/assets/khulna3.jpg' %}"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">View Detail</a
+            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="">
+          <div class="card-body">
+            <img
+              src="{% static '/img/assets/khulna3.jpg' %}"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">View Detail</a
+            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="">
+          <div class="card-body">
+            <img
+              src="{% static '/img/assets/khulna3.jpg' %}"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">View Detail</a
+            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    {% endblock %}
