@@ -22,4 +22,17 @@
   </div>
 </section>
 
+{% for gallery  in galleries %}
+  <div class="card text-center title-gap">
+  <div class="card-body">
+    <img src="{{ gallery.image_pic.url }}" class="img-fluid" height="220px" width="550px" />
+    <h5 class="card-title"></h5>
+    <p class="card-text">{{gallery.image_desc}}</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <a href="" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+  {% endfor %}
+    </div>
+
 {% endblock %}

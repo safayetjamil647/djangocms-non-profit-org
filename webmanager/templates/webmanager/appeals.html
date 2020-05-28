@@ -3,7 +3,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-6">
-          <h1>apperals</h1>
+          <h1>Our Appeals</h1>
           <p>
             Together we plant a smile.Support the delivery of food, living and
             medical care in Bangladesh. Donate now. Delivering sipport to those in
@@ -30,60 +30,25 @@
       </p>
     </div>
     <div class="row text-center title-gap">
+      {% for appeal in appeals %}
       <div class="col-lg-4">
         <div class="card" style="">
           <div class="card-body">
             <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
+              src="{{ appeal.appeal_pic.url }}"
               class="card-img-top img-fluid"
               alt="..."
             />
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">{{appeal.appeal_title}}</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {{appeal.appeal_desc}}
             </p>
             <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="#" class="btn btn-primary button-margin">Donate Now</a>
+            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Donate Now</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="">
-          <div class="card-body">
-            <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
-              class="card-img-top img-fluid"
-              alt="..."
-            />
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="#" class="btn btn-primary button-margin">Donate Now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="">
-          <div class="card-body">
-            <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
-              class="card-img-top img-fluid"
-              alt="..."
-            />
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="#" class="btn btn-primary button-margin">Donate Now</a>
-          </div>
-        </div>
-      </div>
+       {% endfor %}
     </div>
   </div>
 </section>

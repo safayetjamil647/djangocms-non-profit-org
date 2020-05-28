@@ -31,62 +31,29 @@
       </p>
     </div>
     <div class="row text-center title-gap">
+       {% for sponsor in sponsors %}
       <div class="col-lg-4">
         <div class="card" style="">
           <div class="card-body">
             <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
+              src="{{ sponsor.sponsor_pic.url }}"
               class="card-img-top img-fluid"
               alt="..."
             />
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">{{sponsor.sponsor_title}}</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {{sponsor.sponsor_desc}}
             </p>
             <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
+            ><a href="{%url 'contact' %}" class="btn btn-primary button-margin">Be Sponsor</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="">
-          <div class="card-body">
-            <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
-              class="card-img-top img-fluid"
-              alt="..."
-            />
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="">
-          <div class="card-body">
-            <img
-              src="{% static '/img/assets/khulna3.jpg' %}"
-              class="card-img-top img-fluid"
-              alt="..."
-            />
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">View Detail</a
-            ><a href="{%url 'donation' %}" class="btn btn-primary button-margin">Be Sponsor</a>
-          </div>
-        </div>
-      </div>
+     {% endfor %}
+
     </div>
   </div>
 </section>
+
 
     {% endblock %}

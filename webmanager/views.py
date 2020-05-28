@@ -20,15 +20,22 @@ def contact(request):
 
 
 def appeals(request):
-    return render(request, 'webmanager/appeals.html')
+    appeals = Appeal.objects.all()
+    context = {'appeals': appeals}
+
+    return render(request, 'webmanager/appeals.html', context)
 
 
 def sponsor(request):
-    return render(request, 'webmanager/sponsor.html')
+    sponsors = Sponsor.objects.all()
+    context = {'sponsors': sponsors}
+    return render(request, 'webmanager/sponsor.html', context)
 
 
 def events(request):
-    return render(request, 'webmanager/events.html')
+    events = Event.objects.all()
+    context = {'events': events}
+    return render(request, 'webmanager/events.html', context)
 
 
 def blog(request):
@@ -46,7 +53,9 @@ def blog_detail(request, pk):
 
 
 def gallery(request):
-    return render(request, 'webmanager/gallery.html')
+    galleries = Gallery.objects.all()
+    context = {'galleries': galleries}
+    return render(request, 'webmanager/gallery.html', context)
 
 
 def donation(request):
