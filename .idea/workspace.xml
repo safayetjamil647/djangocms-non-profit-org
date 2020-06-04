@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b265cc45-478a-4b95-a774-9a3b4b118851" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmanager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/appeals.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/appeals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/blog_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/donation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmanager/templates/webmanager/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmanager/templates/webmanager/sponsor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +61,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="587" y="211" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1590062918590" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590849115167">
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591210432954">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1590849115167" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1591210432954" />
   </component>
 </project>
